@@ -1,0 +1,691 @@
+<!-- אתר  3 לימוד css
+אתר עם פתריט נפתח תפריט צד קבוע -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>מלון בטבריה</title>
+    <link rel="shortcut icon" type="image/png" href="img/crown.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <div class="navbar">
+
+        <input type="checkbox" class="checkbox" id="click" hidden>
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <label for="click">
+                <div class="menu-icon">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+            </label>
+
+            <ul class="social-icons-list">
+                <li>
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="social-link"><i class="fab fa-google-plus-g"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+
+            <div class="year">
+                <p>2018</p>
+            </div>
+        </div>
+        <!-- end of sidebar -->
+
+        <!-- navigation -->
+        <nav class="navigation">
+            <div class="navigation-header">
+                <h1 class="navigation-heading">מלון כיף בטבריה</h1>
+
+                <form class="navigation-search">
+                    <input type="text" class="navigation-search-input" placeholder="Search...">
+                    <button class="navigation-search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">בית</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">פרטים עלינו</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">חדרים</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">אירועים</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">שירות לקוחות</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">צור קשר</a>
+                </li>
+            </ul>
+
+            <div class="copyright">
+                <p>&copy; 2018.רשת מלונות כיף. All Rights Reserved</p>
+            </div>
+        </nav>
+        <!-- end of navigation -->
+    </div>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="header">
+        <div class="brand">
+            <div>
+                <img src="img/crown.png" width="80">
+            </div>
+            <h3 class="hotel-heading">מלון כיף בטבריה</h3>
+        </div>
+
+        <div class="banner">
+            <h1 class="banner-heading">ברוכים הבאים למלון כיף</h1>
+            <p class="banner-paragraph">תהנו</p>
+            <button class="banner-button">תרשמו</button>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- about us -->
+    <section class="about-us">
+        <div class="about-us-content">
+            <h1 class="about-us-heading">עלינו</h1>
+            <div class="underline">
+                <div class="small-underline"></div>
+                <div class="big-underline"></div>
+            </div>
+            <h3 class="sub-heading">מלון כיף</h3>
+            <p class="about-us-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus accusantium
+                exercitationem qui quis perspiciatis totam dolores. Numquam inventore temporibus recusandae? Eos eaque
+                quia eius culpa nulla vitae, cumque enim voluptates!</p>
+            <button class="about-us-btn">
+          קרא עוד
+                <i class="fas fa-angle-double-right btn-arrow"></i>
+            </button>
+        </div>
+
+        <div class="about-us-images">
+            <img src="img/about-us-img-1.jpeg" class="image image-1">
+            <img src="img/about-us-img-2.jpeg" class="image image-2">
+            <img src="img/about-us-img-3.jpeg" class="image image-3">
+            <img src="img/about-us-img-4.jpeg" class="image image-4">
+        </div>
+    </section>
+    <!-- end of about us -->
+
+    <!-- rooms -->
+    <section class="rooms">
+        <div class="common-header">
+            <h1 class="common-heading">חדרים במלון כיף</h1>
+            <div class="underline">
+                <div class="small-underline"></div>
+                <div class="big-underline"></div>
+            </div>
+        </div>
+
+        <div class="rooms-cards-wrapper">
+            <div class="room-card">
+                <img src="img/single-room.jpeg" class="room-img">
+                <div class="room-card-content">
+                    <h4 class="room-card-heading">חדר יחיד</h4>
+                    <p class="room-card-paragraph">Lorem ipsum dolor sit amet.</p>
+                    <p class="room-price">$99.00</p>
+                    <button class="room-card-btn">
+                        Book Now
+                        <i class="fas fa-angle-double-right btn-arrow"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="img/double-room.jpeg" class="room-img">
+                <div class="room-card-content">
+                    <h4 class="room-card-heading">חדר זוגי</h4>
+                    <p class="room-card-paragraph">Lorem ipsum dolor sit amet.</p>
+                    <p class="room-price">$199.00</p>
+                    <button class="room-card-btn">
+                        Book Now
+                        <i class="fas fa-angle-double-right btn-arrow"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="img/lux.jpeg" class="room-img">
+                <div class="room-card-content">
+                    <h4 class="room-card-heading">Lux</h4>
+                    <p class="room-card-paragraph">Lorem ipsum dolor sit amet.</p>
+                    <p class="room-price">$299.00</p>
+                    <button class="room-card-btn">
+                        Book Now
+                        <i class="fas fa-angle-double-right btn-arrow"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="img/vip.jpeg" class="room-img">
+                <div class="room-card-content">
+                    <h4 class="room-card-heading">VIP</h4>
+                    <p class="room-card-paragraph">Lorem ipsum dolor sit amet.</p>
+                    <p class="room-price">$399.00</p>
+                    <button class="room-card-btn">
+                        Book Now
+                        <i class="fas fa-angle-double-right btn-arrow"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="rooms-btn-wrapper">
+            <button class="rooms-btn">Check All Rooms</button>
+        </div>
+    </section>
+    <!-- end of rooms -->
+
+    <!-- customers -->
+    <section class="customers">
+        <div class="common-header">
+            <h1 class="common-heading">הלקוחות שלנו</h1>
+            <div class="underline">
+                <div class="small-underline"></div>
+                <div class="big-underline"></div>
+            </div>
+        </div>
+
+        <p class="customers-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, aspernatur
+            sint! Esse aliquam explicabo aperiam eos, ipsum nam consectetur ipsa!</p>
+
+        <div class="customers-card-wrapper">
+            <div class="customer-card">
+                <div class="customer-image-wrapper">
+                    <img src="img/customer-1.jpeg" class="customer-image">
+                </div>
+                <div class="customer-info">
+                    <h3 class="customer-fullname">מור</h3>
+                    <p class="customer-paragraph-1">לקוח מרוצה</p>
+                    <p class="customer-paragraph-2">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                        labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus,
+                        vitae odio. Veniam alias, mollitia ab rem tenetur sint ex."</p>
+                </div>
+            </div>
+            <div class="customer-card">
+                <div class="customer-image-wrapper">
+                    <img src="img/customer-2.jpeg" class="customer-image">
+                </div>
+                <div class="customer-info">
+                    <h3 class="customer-fullname">זהבה</h3>
+                    <p class="customer-paragraph-1">לקוח מרוצה</p>
+                    <p class="customer-paragraph-2">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                        labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus,
+                        vitae odio. Veniam alias, mollitia ab rem tenetur sint ex."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of customers -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="main-part">
+            <div class="footer-list-wrapper">
+                <h3 class="footer-heading">מלונות כיף</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            support@ceyf.com
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            tveria, Main Street 123
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            Tel: +123 456 789
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-list-wrapper">
+                <h3 class="footer-heading">חקור</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            בית
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            שירות
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            חדרים
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            אירועים
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            שירות לקוחות
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            צור קשר
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h3 class="footer-heading">צור קשר</h3>
+                <p>Sign Up for News</p>
+                <form class="footer-form">
+                    <input type="text" class="footer-input" placeholder="Your email...">
+                    <button class="footer-btn">Sign Up</button>
+                </form>
+            </div>
+
+            <div class="gallery">
+                <h3 class="footer-heading">גלריה</h3>
+                <div class="gallery-images">
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-1.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-2.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-3.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-4.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-5.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-6.jpeg" class="footer-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="creator-part">
+            <div class="copyright-text">
+                <p>Copyright &copy; 2018. מלנות כיף All Rights Reserved</p>
+            </div>
+
+         
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>vv
+
+    
+    <!-- navbar  -->
+    <div class="navbar2">
+
+        <input type="checkbox" class="checkbox2" id="click" hidden>
+
+        <!-- sidebar -->
+        <div class="sidebar2">
+            <label for="click2">
+                <div class="menu-icon2">
+                    <div class="line line-12"></div>
+                    <div class="line line-22"></div>
+                    <div class="line line-32"></div>
+                </div>
+            </label>
+
+            <ul class="social-icons-list2">
+                <li>
+                    <a href="#" class="social-link2"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="social-link2"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="social-link2"><i class="fab fa-google-plus-g"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="social-link2><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+
+            <div class="year2">
+                <p>2018</p>
+            </div>
+        </div>
+        <!-- end of sidebar -->
+
+        <!-- navigation -->
+        <nav class="navigation2">
+            <div class="navigation-header2">
+                <h1 class="navigation-heading2">מלון כיף בטבריה</h1>
+
+                <form class="navigation-search2">
+                    <input type="text" class="navigation-search-input2" placeholder="Search...">
+                    <button class="navigation-search-btn2">
+                        <i class="fas fa-search2"></i>
+                    </button>
+                </form>
+            </div>
+
+            <ul class="navigation-list2">
+                <li class="navigation-item2">
+                    <a href="#" class="navigation-link2">בית</a>
+                </li>
+                <li class="navigation-item2">
+                    <a href="#" class="navigation-link2">פרטים עלינו</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link2">חדרים</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link2">אירועים</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link2">שירות לקוחות</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link2">צור קשר</a>
+                </li>
+            </ul>
+
+            <div class="copyright2">
+                <p>&copy; 2018.רשת מלונות כיף. All Rights Reserved</p>
+            </div>
+        </nav>
+        <!-- end of navigation -->
+    </div>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="header2">
+        <div class="brand2">
+            <div>
+                <img src="img/crown.png" width="80">
+            </div>
+            <h3 class="hotel-heading2">מלון כיף בטבריה</h3>
+        </div>
+
+        <div class="banner2">
+            <h1 class="banner-heading2">ברוכים הבאים למלון כיף</h1>
+            <p class="banner-paragraph2">תהנו</p>
+            <button class="banner-button2">תרשמו</button>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- about us -->
+    <section class="about-us2">
+        <div class="about-us-content2">
+            <h1 class="about-us-heading2">עלינו</h1>
+            <div class="underline2">
+                <div class="small-underline2"></div>
+                <div class="big-underlin2e"></div>
+            </div>
+            <h3 class="sub-heading2">מלון כיף</h3>
+            <p class="about-us-paragraph2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus accusantium
+                exercitationem qui quis perspiciatis totam dolores. Numquam inventore temporibus recusandae? Eos eaque
+                quia eius culpa nulla vitae, cumque enim voluptates!</p>
+            <button class="about-us-btn2">
+          קרא עוד
+                <i class="fas fa-angle-double-right btn-arrow2"></i>
+            </button>
+        </div>
+
+        <div class="about-us-images2">
+            <img src="img/about-us-img-1.jpeg" class="image image-1">
+            <img src="img/about-us-img-2.jpeg" class="image image-2">
+            <img src="img/about-us-img-3.jpeg" class="image image-3">
+            <img src="img/about-us-img-4.jpeg" class="image image-4">
+        </div>
+    </section>
+    <!-- end of about us -->
+
+    <!-- rooms -->
+    <section class="rooms2">
+        <div class="common-header2">
+            <h1 class="common-heading2">חדרים במלון כיף</h1>
+            <div class="underline2">
+                <div class="small-underline2"></div>
+                <div class="big-underline2"></div>
+            </div>
+        </div>
+
+        <div class="rooms-cards-wrapper2">
+            <div class="room-card2">
+                <img src="img/single-room.jpeg" class="room-img2">
+                <div class="room-card-content2">
+                    <h4 class="room-card-heading2">חדר יחיד</h4>
+                    <p class="room-card-paragraph2">Lorem ipsum dolor sit amet.</p>
+                    <p class="room-price2">$99.00</p>
+                    <button class="room-card-btn2">
+                        Book Now
+                        <i class="fas fa-angle-double-right btn-arrow"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="room-card2">
+                <img src="img/double-room.jpeg" class="room-img2">
+                <div class="room-card-content2">
+                    <h4 class="room-card-heading2">חדר זוגי</h4>
+                    <p class="room-card-paragraph2">Lorem ipsum dolor sit amet.</p>
+                    <p class="room-price2">$199.00</p>
+                    <button class="room-card-btn2">
+                        Book Now
+                        <i class="fas fa-angle-double-right btn-arrow2"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="room-card2">
+                <img src="img/lux.jpeg" class="room-img2">
+                <div class="room-card-content2">
+                    <h4 class="room-card-heading2">Lux</h4>
+                    <p class="room-card-paragraph2">Lorem ipsum dolor sit amet.</p>
+                    <p class="room-price2">$299.00</p>
+                    <button class="room-card-btn2">
+                        Book Now
+                        <i class="fas fa-angle-double-right btn-arrow2"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="room-card2">
+                <img src="img/vip.jpeg" class="room-img2">
+                <div class="room-card-content2">
+                    <h4 class="room-card-heading2">VIP</h4>
+                    <p class="room-card-paragraph2">Lorem ipsum dolor sit amet.</p>
+                    <p class="room-price2">$399.00</p>
+                    <button class="room-card-btn2">
+                        Book Now
+                        <i class="fas fa-angle-double-right btn-arrow2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="rooms-btn-wrapper2">
+            <button class="rooms-btn2">Check All Rooms</button>
+        </div>
+    </section>
+    <!-- end of rooms -->
+
+    <!-- customers -->
+    <section class="customers2">
+        <div class="common-header2">
+            <h1 class="common-heading2">הלקוחות שלנו</h1>
+            <div class="underline2">
+                <div class="small-underline2"></div>
+                <div class="big-underline2"></div>
+            </div>
+        </div>
+
+        <p class="customers-paragraph2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, aspernatur
+            sint! Esse aliquam explicabo aperiam eos, ipsum nam consectetur ipsa!</p>
+
+        <div class="customers-card-wrapper2">
+            <div class="customer-card2">
+                <div class="customer-image-wrapper2">
+                    <img src="img/customer-1.jpeg" class="customer-image">
+                </div>
+                <div class="customer-info">
+                    <h3 class="customer-fullname2">מור</h3>
+                    <p class="customer-paragraph-12">לקוח מרוצה</p>
+                    <p class="customer-paragraph-22">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                        labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus,
+                        vitae odio. Veniam alias, mollitia ab rem tenetur sint ex."</p>
+                </div>
+            </div>
+            <div class="customer-card2">
+                <div class="customer-image-wrapper2">
+                    <img src="img/customer-2.jpeg" class="customer-image">
+                </div>
+                <div class="customer-info2">
+                    <h3 class="customer-fullname2">זהבה</h3>
+                    <p class="customer-paragraph-12">לקוח מרוצה</p>
+                    <p class="customer-paragraph-22">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                        labore magni assumenda laboriosam nesciunt animi dolorem inventore mollitia nihil, possimus,
+                        vitae odio. Veniam alias, mollitia ab rem tenetur sint ex."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of customers -->
+
+    <!-- footer -->
+    <footer class="footer2">
+        <div class="main-part2">
+            <div class="footer-list-wrapper2">
+                <h3 class="footer-heading2">מלונות כיף</h3>
+                <ul class="footer-list2">
+                    <li class="footer-list-item2">
+                        <a href="#" class="footer-list-lin2k">
+                            support@ceyf.com
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            tveria, Main Street 123
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            Tel: +123 456 789
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-list-wrapper">
+                <h3 class="footer-heading">חקור</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            בית
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            שירות
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            חדרים
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            אירועים
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            שירות לקוחות
+                        </a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="#" class="footer-list-link">
+                            צור קשר
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h3 class="footer-heading">צור קשר</h3>
+                <p>Sign Up for News</p>
+                <form class="footer-form">
+                    <input type="text" class="footer-input" placeholder="Your email...">
+                    <button class="footer-btn">Sign Up</button>
+                </form>
+            </div>
+
+            <div class="gallery">
+                <h3 class="footer-heading">גלריה</h3>
+                <div class="gallery-images">
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-1.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-2.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-3.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-4.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-5.jpeg" class="footer-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="img/gallery-img-6.jpeg" class="footer-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="creator-part">
+            <div class="copyright-text">
+                <p>Copyright &copy; 2018. מלנות כיף All Rights Reserved</p>
+            </d
